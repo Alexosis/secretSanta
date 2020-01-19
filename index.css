@@ -1,0 +1,87 @@
+body{
+    background-image: url("./photo-1561506694-f97e677ff3d3.jpg ");
+    background-size: 100%;
+    height: 67px;
+    margin-top: 430px;
+    margin-left: 600px;
+    max-width: 184px;
+}
+
+body input{
+    width: 100%;
+    font-family: "Informal Roman", sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.answer{
+    display: flex;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./gift.png');
+    border: none;
+    background-size: 100%;
+    height: 180px;
+    width: 180px;
+    font-family: "Informal Roman", sans-serif;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    overflow: hidden;
+    resize: none;
+}
+
+.buttoms{
+    display: flex;
+    width: 184px;
+}
+
+.namebtn{
+    margin-top: 5px;
+    font-size: 20px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: green;
+    border-color: green;
+    box-shadow: none;
+    font-family: 'Trat', cursive;
+    font-weight: bold;
+}
+
+.namebtn:hover{
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.finishbtn{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: darkred;
+    border-color: darkred;
+    box-shadow: none;
+    font-family: 'Trat', cursive;
+    font-weight: bold;
+}
+
+.finishbtn:hover{
+    background-color:red;
+    border-color: red;
+}
+
+.openBtn{
+    width: 184px;
+    font-size: 20px;
+    margin-top: -15px;
+    font-family: 'Trat', cursive;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.openBtn:hover{
+    background-color: lightgray;
+    border-color: lightgray;
+}
