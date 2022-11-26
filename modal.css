@@ -1,0 +1,73 @@
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.pergament {
+    background-image: url("pergament.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    text-align: center;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    font-family: "Informal Roman", sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.listInput{
+    width: 80%;
+    min-height: 400px;
+    background-color: initial;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: "Informal Roman", sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.listInput:focus{
+    border: none;
+}
+
+.finishbtn{
+    margin-top: 5px;
+    margin-left: 34%;
+    font-size: 20px;
+    /*width: 90px;*/
+    border-radius: 5px;
+    background-color: darkred;
+    border-color: darkred;
+    box-shadow: none;
+    font-family: 'Trat', cursive;
+    font-weight: bold;
+    color: #aaa;
+}
+
+.finishbtn:hover{
+    background-color:red;
+    border-color: red;
+    color: black;
+}

@@ -5,25 +5,32 @@
     <title>Santa</title>
     <script src="logic.js"></script>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
+
+<div id="listModal" class="modal" data-keyboard="false" data-backdrop="static">
+    <!-- Modal content -->
+    <div class="pergament">
+        <div class="modal-content">
+            <p>Ho-Ho-Ho!</p>
+            <p>List of good kids for 2022</p>
+            <textarea class="listInput" id="listNames"></textarea>
+        </div>
+        <button class="finishbtn close" onclick="getNames()">That's it for now</button>
+    </div>
+
+</div>
+
 <div class="first">
-<!--    <h1>Enter your name here</h1>-->
-    <label class="name">
-        <input placeholder="enter your name here...">
-    </label>
     <div class="buttoms">
-    <button onclick="rememberName()" class="namebtn">next</button>
-    <button onclick="endOfRemember()" class="finishbtn">finish</button>
     </div>
     <p>
         <label>
             <textarea class="answer" disabled></textarea>
         </label>
     </p>
-
-    <button onclick="getName()" class="openBtn">Get your's victim's name</button>
+    <button onclick="getName()" class="openBtn">Get yours victim's name</button>
 
 </div>
 </body>
